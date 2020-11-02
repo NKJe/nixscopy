@@ -1,6 +1,6 @@
-{ pkgs ? import <nixpkgs> {} }:
+{ stdenv }:
 
-pkgs.stdenv.mkDerivation rec {
+stdenv.mkDerivation rec {
   pname = "my-very-cool-background";
   version = "1.0";
   src = ./.;
