@@ -1,18 +1,18 @@
 { stdenv, fetchFromGitHub }:
 
 stdenv.mkDerivation {
-  pname = "zsh-autocomplete";
-  version = "0.0.1";
+  name = "zsh-autocomplete";
+
   src = fetchFromGitHub {
     owner = "marlonrichert";
     repo = "zsh-autocomplete";
-    rev = "18nzynbwnnmcq2p1ai00n8sxbbvb99q17gd57cmdczcmivk38b8w";
-    sha256 = "1n9whlys95k4wc57cnz3n07p7zpkv796qkmn68a50ygkx6h3afqf";
+    rev = "f75d296ec218573cb4c14abeebfd952686135b75";
+    sha256 = "18nzynbwnnmcq2p1ai00n8sxbbvb99q17gd57cmdczcmivk38b8w";
   };
 
   installPhase = ''
     mkdir -p $out/share/zsh/plugins/zsh-autocomplete
-    cp * $out/share/zsh/plugins/zsh-autocomplete
+    cp -R * $out/share/zsh/plugins/zsh-autocomplete
   '';
 
   meta = with stdenv.lib; {
