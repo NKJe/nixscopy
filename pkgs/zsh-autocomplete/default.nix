@@ -6,8 +6,8 @@ stdenv.mkDerivation {
   src = fetchFromGitHub {
     owner = "marlonrichert";
     repo = "zsh-autocomplete";
-    rev = "f75d296ec218573cb4c14abeebfd952686135b75";
-    sha256 = "18nzynbwnnmcq2p1ai00n8sxbbvb99q17gd57cmdczcmivk38b8w";
+    rev = "13deb34fc9ff8922be6629d337bf435f17c5039d";
+    sha256 = "06y3rsqavl31w1lwvm91s59ad7iln9cqd1lnm9dzm437yxycphjm";
   };
 
   installPhase = ''
