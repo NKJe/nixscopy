@@ -1,10 +1,9 @@
-{ pkgs ? import <nixpkgs> {}, ... }:
-
-let
-  inherit (pkgs) callPackage;
-in
-{
-  sddm-sugar-candy = callPackage ./pkgs/sddm-sugar-candy { };
-  my-very-cool-background = callPackage ./pkgs/my-very-cool-background { };
-  zsh-autocomplete = callPackage ./pkgs/zsh-autocomplete { };
-}
+(import (
+  let
+    lock = builtins.fromJSON (builtins.readFile ./flake.lock);
+  in fetchTarball {
+    url = "https://github.com/edolstra/flake-compat/archive/${lock.nodes.flake-compat.locked.rev}.tar.gz";
+    sha256 = lock.nodes.flake-compat.locked.narHash; }
+) {
+  src =  ./.;
+}).defaultNix.legacyPackages.${builtins.currentSystem}
