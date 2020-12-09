@@ -1,14 +1,13 @@
-{ stdenv, fetchFromGitHub }:
+{ stdenv }:
 
+let
+  pname = "zsh-autocomplete";
+  src = (import ./nix/sources.nix).zsh-autocomplete;
+in
 stdenv.mkDerivation {
-  name = "zsh-autocomplete";
+  inherit src pname;
 
-  src = fetchFromGitHub {
-    owner = "marlonrichert";
-    repo = "zsh-autocomplete";
-    rev = "13deb34fc9ff8922be6629d337bf435f17c5039d";
-    sha256 = "06y3rsqavl31w1lwvm91s59ad7iln9cqd1lnm9dzm437yxycphjm";
-  };
+  version = src.version or src.rev;
 
   installPhase = ''
     mkdir -p $out/share/zsh/plugins/zsh-autocomplete
