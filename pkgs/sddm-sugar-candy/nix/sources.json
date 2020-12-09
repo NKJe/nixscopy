@@ -1,0 +1,8 @@
+{
+    "sddm-sugar-candy": {
+        "branch": "master",
+        "repo": "https://framagit.org/MarianArlt/sddm-sugar-candy.git",
+        "rev": "2b72ef6c6f720fe0ffde5ea5c7c48152e02f6c4f",
+        "type": "git"
+    }
+}
