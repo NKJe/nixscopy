@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "marlonrichert",
         "repo": "zsh-autocomplete",
-        "rev": "bac65644ab1b82c48189b5f25bf2b1379b5d1797",
-        "sha256": "07sphvfhq2crmg64whxslsr2531hxkxss9xzpsd5azngb33xwg4p",
+        "rev": "40cd8dfcc9d1718a26b102b8499c561ad7655646",
+        "sha256": "19iwq3jkj1gk48j778sx1qn1qbaxhs4islq1qyvikyr56ar17f5h",
         "type": "tarball",
-        "url": "https://github.com/marlonrichert/zsh-autocomplete/archive/bac65644ab1b82c48189b5f25bf2b1379b5d1797.tar.gz",
+        "url": "https://github.com/marlonrichert/zsh-autocomplete/archive/40cd8dfcc9d1718a26b102b8499c561ad7655646.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
