@@ -1,8 +1,8 @@
-{ stdenv }:
+{ stdenv, zsh-autocomplete-src }:
 
 let
   pname = "zsh-autocomplete";
-  src = (import ./nix/sources.nix).zsh-autocomplete;
+  src = zsh-autocomplete-src;
 in
 stdenv.mkDerivation {
   inherit src pname;

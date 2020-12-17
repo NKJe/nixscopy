@@ -4,6 +4,7 @@ stdenv.mkDerivation rec {
   pname = "my-very-cool-background";
   version = "1.0";
   src = ./.;
+
   dontBuild = true;
 
   installPhase = ''
