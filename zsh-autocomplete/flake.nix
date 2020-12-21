@@ -20,5 +20,7 @@
       };
     in flake // flake-utils.lib.eachSystem systems (system: {
       defaultPackage = flake.packages.${system}.${name};
-    });
+    }) // {
+      hydraJobs = flake.packages.x86_64-linux;
+    };
 }
