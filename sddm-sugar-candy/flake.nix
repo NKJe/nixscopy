@@ -3,7 +3,7 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     sddm-sugar-candy-src = {
-      url = "git+https://framagit.org/MarianArlt/sddm-sugar-candy.git";
+      url = "https://framagit.org/MarianArlt/sddm-sugar-candy/-/archive/2b72ef6c6f720fe0ffde5ea5c7c48152e02f6c4f/sddm-sugar-candy-2b72ef6c6f720fe0ffde5ea5c7c48152e02f6c4f.tar.gz";
       flake = false;
     };
   };
