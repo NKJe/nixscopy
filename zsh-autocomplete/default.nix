@@ -7,7 +7,7 @@ in
 stdenv.mkDerivation {
   inherit src pname;
 
-  version = src.version or src.rev;
+  version = src.version or src.rev or src.narHash;
 
   installPhase = ''
     mkdir -p $out/share/zsh/plugins/zsh-autocomplete

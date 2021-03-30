@@ -10,7 +10,7 @@ let
   src = sddm-sugar-candy-src;
 in stdenv.mkDerivation {
   inherit src pname;
-  version = src.version or src.rev;
+  version = src.version or src.rev or src.narHash;
 
   dontBuild = true;
 

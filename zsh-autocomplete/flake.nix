@@ -19,6 +19,6 @@
         };
       };
     in flake // flake-utils.lib.eachSystem systems (system: {
-      defaultPackage = flake.packages.${system}.${name};
-    });
+      defaultPackage = flake.legacyPackages.${system}.${name};
+    }) // { packages = flake.legacyPackages; };
 }
