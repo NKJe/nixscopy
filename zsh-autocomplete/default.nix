@@ -1,4 +1,4 @@
-{ stdenv, zsh-autocomplete-src }:
+{ stdenv, lib, zsh-autocomplete-src }:
 
 let
   pname = "zsh-autocomplete";
@@ -14,7 +14,7 @@ stdenv.mkDerivation {
     cp -R * $out/share/zsh/plugins/zsh-autocomplete
   '';
 
-  meta = with stdenv.lib; {
+  meta = with lib; {
     homepage = "https://github.com/marlonrichert/zsh-autocomplete";
     description = "Real-time type-ahead completion for Zsh. Asynchronous find-as-you-type autocompletion.";
     license = licenses.mit;
