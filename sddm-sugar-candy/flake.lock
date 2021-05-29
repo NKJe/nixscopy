@@ -2,11 +2,11 @@
   "nodes": {
     "flake-utils": {
       "locked": {
-        "lastModified": 1614513358,
-        "narHash": "sha256-LakhOx3S1dRjnh0b5Dg3mbZyH0ToC9I8Y2wKSkBaTzU=",
+        "lastModified": 1620759905,
+        "narHash": "sha256-WiyWawrgmyN0EdmiHyG2V+fqReiVi8bM9cRdMaKQOFg=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "5466c5bbece17adaab2d82fae80b46e807611bf3",
+        "rev": "b543720b25df6ffdfcf9227afafc5b8c1fabfae8",
         "type": "github"
       },
       "original": {
@@ -17,11 +17,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1617063239,
-        "narHash": "sha256-OQancnNH1IOd4e45i8yE1B3Y0uKjeBQSBRaX+aHqCBM=",
+        "lastModified": 1622247833,
+        "narHash": "sha256-H1axFFJ8SzvvURMBC3N92Sk5xhAnkXn798fCADyE+z0=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "b044cc3833b228eacbe4e64299856aa37893168e",
+        "rev": "3b87c94c616f84e55f3eb65e374f9a8271ce2225",
         "type": "github"
       },
       "original": {
@@ -39,13 +39,17 @@
     "sddm-sugar-candy-src": {
       "flake": false,
       "locked": {
+        "lastModified": 1580585463,
         "narHash": "sha256-XggFVsEXLYklrfy1ElkIp9fkTw4wvXbyVkaVCZq4ZLU=",
-        "type": "tarball",
-        "url": "https://framagit.org/MarianArlt/sddm-sugar-candy/-/archive/2b72ef6c6f720fe0ffde5ea5c7c48152e02f6c4f/sddm-sugar-candy-2b72ef6c6f720fe0ffde5ea5c7c48152e02f6c4f.tar.gz"
+        "ref": "master",
+        "rev": "2b72ef6c6f720fe0ffde5ea5c7c48152e02f6c4f",
+        "revCount": 53,
+        "type": "git",
+        "url": "https://framagit.org/MarianArlt/sddm-sugar-candy.git"
       },
       "original": {
-        "type": "tarball",
-        "url": "https://framagit.org/MarianArlt/sddm-sugar-candy/-/archive/2b72ef6c6f720fe0ffde5ea5c7c48152e02f6c4f/sddm-sugar-candy-2b72ef6c6f720fe0ffde5ea5c7c48152e02f6c4f.tar.gz"
+        "type": "git",
+        "url": "https://framagit.org/MarianArlt/sddm-sugar-candy.git"
       }
     }
   },
