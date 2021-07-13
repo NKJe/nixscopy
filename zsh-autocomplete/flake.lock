@@ -2,11 +2,11 @@
   "nodes": {
     "flake-utils": {
       "locked": {
-        "lastModified": 1620759905,
-        "narHash": "sha256-WiyWawrgmyN0EdmiHyG2V+fqReiVi8bM9cRdMaKQOFg=",
+        "lastModified": 1623875721,
+        "narHash": "sha256-A8BU7bjS5GirpAUv4QA+QnJ4CceLHkcXdRp4xITDB0s=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "b543720b25df6ffdfcf9227afafc5b8c1fabfae8",
+        "rev": "f7e004a55b120c02ecb6219596820fcd32ca8772",
         "type": "github"
       },
       "original": {
@@ -17,11 +17,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1622246989,
-        "narHash": "sha256-fG1sMmq2WjNpVMdc39apLWZWixe5KBSwRt/s/Uu/aCw=",
+        "lastModified": 1626141482,
+        "narHash": "sha256-8+1XXkqCoEc/N1UWuLR9sHON6iDwKHBCWPPtDaiY21I=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "d624325e81fdcddab5ec0e4a718c3cb9d6cf31a3",
+        "rev": "9359ed1a3a576292372f2f1518eb71b6c53bc27b",
         "type": "github"
       },
       "original": {
@@ -39,11 +39,11 @@
     "zsh-autocomplete-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1622150283,
-        "narHash": "sha256-BlfIIZfh7DjtOlVjeJX63NqYomKGPiHPcBWfqeOAW2o=",
+        "lastModified": 1625398188,
+        "narHash": "sha256-SknYSG19Q2OviFkksagIGEDRFYPMwv/EpDHv8MoEdLw=",
         "owner": "marlonrichert",
         "repo": "zsh-autocomplete",
-        "rev": "e8563df4edb1bb88be8623820060d206e22a2a0c",
+        "rev": "b164ae7bc70978131c2515bca4cb3bcaf3f95dbc",
         "type": "github"
       },
       "original": {
